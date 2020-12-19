@@ -1,0 +1,105 @@
+:root{
+    margin:0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(153, 153, 152);
+    align-items: center;
+}
+
+
+    main{
+        background-color: rgb(18, 87, 151);
+        margin: 0 auto;
+        /* margin:20px; */
+        max-width: 50%;
+        border-radius: 30px;
+        padding: 30px;
+        align-items: center;
+        margin-top: 30px;
+    box-sizing: border-box;    
+    }
+    form{
+        margin: 0;
+        padding: 0;
+    }
+   .listAdder{
+       margin-bottom: 80px;
+       padding: 20px;
+       box-sizing: border-box;
+   }
+    .listAdder h3{
+        color: white;
+        font-size: 30px;
+        text-align: center;
+    }
+    .listAdder input{
+        width: 100%;
+        padding: 16px;
+        background-color: white;
+        border: 1px solid rgb(18, 87, 151);
+        border-radius: 16px;
+        box-sizing: border-box;
+    }
+    input:hover,:focus{
+        outline: none;
+    }
+
+.listAdder button{
+    float: right;
+    background-color: rgb(20, 170, 20);
+    border: none;
+    padding: 16px;
+    border-radius: 8px;
+    margin-top: 8px;
+    color: white;
+
+}
+ul{
+    padding-left: 0;
+}
+ul li{
+    list-style: none;
+    background: #FF6584;
+    color: white;
+    padding: 16px;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+.fas{
+    color: white;
+    font-size: 20px;
+}
+#errorUpdater{
+    color: rgb(199, 33, 33);
+    font-size: 12px;
+}
+.fas{
+    font-size: 20px;
+    color:rgb(209, 211, 214);
+    float: right;
+    right: 20px;
+}
+.fas:hover{
+    cursor: pointer;
+}
+
+
+@media(max-width:750px){
+    main{
+        max-width: 100%;
+        margin: 20px;
+    }
+    ul{
+        margin:0;
+
+    }
+    .listAdder h3{
+        font-size: 20px;
+    }
+}
